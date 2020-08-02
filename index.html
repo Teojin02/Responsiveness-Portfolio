@@ -14,15 +14,18 @@
 
   <style>
     * {
-      margin: 0;
+      margin: 10px;
       padding: 0;
     }
 
-    body {}
+    body {
+      background-color: lightblue;
+    }
 
     nav {
       width: 100%;
       height: 100px;
+      
 
     }
 
@@ -32,44 +35,104 @@
       display: inline-block;
       padding: 20px;
       line-height: 1;
+      
     }
 
     ul h1 {
       float: left;
-      background-color: lightblue;
+      background-color: white;
       color: black;
       padding: 10px;
+      text-decoration: none;
+      margin: 0;
     }
 
     a {
       color: black;
       font-size: 25px;
-      text-decoration: none;
     }
+
+    .img-1 {
+      height: 230px;
+      float: left;
+      margin: 1px
+      
+     
+
+      
+
+
+    }
+
+    .Heading2 {
+      background: white;
+      display: inline-block;
+      padding: 10px;
+
+    }
+
+   
+
+    }
+
+    h5 {
+      background-color: lightblue;
+      padding: 70px;
+     word-wrap: break-word;
+    
+
+
+    }
+
+    hr {
+      margin: 10px;
+    }
+    .b{
+      word-wrap: break-word;
+      display: inline-block;
+      background-color: white;
+      margin: 0;
+    }
+   
+   
   </style>
 </head>
 
 <nav>
   <ul>
     <h1>Teojin Celestino</h1>
-    <li><a href="http://127.0.0.1:5500/contact.html ">Contact</a></li>
+    <li><a href="contact.html">Contact</a></li>
   </ul>
   <ul>
-    <li><a href="http://127.0.0.1:5500/portfolio.html">Portfolio</a>
+    <li><a href="portfolio.html">Portfolio</a>
     </li>
   </ul>
   <ul>
-    <li><a href=" http://127.0.0.1:5500/index.html">Index</a></li>
+    <li><a href="index.html">Index</a></li>
   </ul>
 
 
 
 </nav>
 
+<nav class="Me">
+  <h1 class="Heading2">About me</h1>
+  <hr>
+  <div class="media">
+    <img class="img-1" src="teo.jpg" class="mr-3" alt="Teojin" class="left" >
+    <div class="media-body">
+     <div class=b> My name is Teojin Celestino. I was born in the Philippines and moved to the U.S. in 2009.<br>
+      I have recently gradauted at Taylorsville High School in Salt Lake City, Utah last May of 2020.<br>
+      My hobbies are watching and playing basketball, and anything that involves outside activites.<br>
+      I also loved traveling and hiking.</div>
+      
+    </div>
+  </div>
+</nav>
+<br>
 
 
 
-</div>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
